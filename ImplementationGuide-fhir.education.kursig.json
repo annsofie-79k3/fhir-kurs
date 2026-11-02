@@ -10,7 +10,7 @@
   "name" : "FhirEducationKursIG",
   "title" : "FHIR-utbildning – Kurs-IG (Implementation Guide)",
   "status" : "draft",
-  "date" : "2026-11-02T08:15:25+00:00",
+  "date" : "2026-11-02T10:50:01+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
@@ -359,6 +359,17 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/encounter-tolvan-1"
+      },
+      "name" : "Besök på vårdcentral",
+      "exampleCanonical" : "http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -366,6 +377,18 @@
       },
       "name" : "Education Patient",
       "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/EducationEncounter"
+      },
+      "name" : "EducationEncounter (title)",
+      "description" : "EducationEncounter (description)",
       "exampleBoolean" : false
     },
     {
