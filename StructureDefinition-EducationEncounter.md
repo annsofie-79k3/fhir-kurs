@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-EducationEncounter.c
   "name" : "EducationEncounter",
   "title" : "EducationEncounter (title)",
   "status" : "draft",
-  "date" : "2026-11-02T12:43:53+00:00",
+  "date" : "2026-11-02T12:46:10+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "EducationEncounter (description)",
   "jurisdiction" : [{
