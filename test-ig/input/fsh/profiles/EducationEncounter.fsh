@@ -16,3 +16,5 @@ Description: "EducationEncounter (description)"
 * class MS
 * period.end MS
 * reasonCode MS
+
+* obeys edu-enc-1
