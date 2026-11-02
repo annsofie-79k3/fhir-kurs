@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for FhirEducationKursIG</h1>
- <p>Generated Mon Nov 02 12:58:23 UTC 2026, FHIR version 4.0.1 for fhir.education.kursig#0.1.0 (canonical = <a href="http://example.org/fhir/education/kursig">http://example.org/fhir/education/kursig</a> (<a href="http://example.org/fhir/education/kursig/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Mon Nov 02 13:00:16 UTC 2026, FHIR version 4.0.1 for fhir.education.kursig#0.1.0 (canonical = <a href="http://example.org/fhir/education/kursig">http://example.org/fhir/education/kursig</a> (<a href="http://example.org/fhir/education/kursig/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v3.0.1</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.education.kursig, Canonical = http://example.org/fhir/education/kursig</td></tr>
@@ -221,17 +221,17 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Encounter.reasonCode[0] (l35/c6)</b></td><td><b>information</b></td><td><b>Ingen av de angivna codings finns i värdemängden 'Encounter Reason Codes' (http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1), och en coding rekommenderas komma från denna värdemängd (koder = http://hl7.org/fhir/sid/icd-10#J45.9)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l6">log</a>, or see <a href="#vmi12" onClick="document.getElementById('vmi12').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_3_CC</span><div id="vmi12" style="display:none"><br/><pre>0ms tx-op
-0ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Analysing http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1 for validation purposes
-0ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Parameters: disp-lang=sv-SE, generate-narrative, default-to-latest
-0ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Prepare include[0]: "(http://snomed.info/sct)(conceptis-a404684003)"
+1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Analysing http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1 for validation purposes
+1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Parameters: disp-lang=sv-SE, generate-narrative, default-to-latest
+1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Prepare include[0]: "(http://snomed.info/sct)(conceptis-a404684003)"
 1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: CodeSystem found: "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
 1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Prepare include[1]: "(http://snomed.info/sct)(conceptis-a71388002)"
-1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: CodeSystem found: "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Prepare include[2]: "(http://snomed.info/sct)(conceptis-a243796009)"
-1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: CodeSystem found: "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Prepare include[3]: "(http://snomed.info/sct)(conceptis-a272379006)"
-1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: CodeSystem found: "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-1ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Validate "[http://hl7.org/fhir/sid/icd-10#J45.9 ("Asthma, unspecified")]"
+2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: CodeSystem found: "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Prepare include[2]: "(http://snomed.info/sct)(conceptis-a243796009)"
+2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: CodeSystem found: "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Prepare include[3]: "(http://snomed.info/sct)(conceptis-a272379006)"
+2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: CodeSystem found: "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Validate "[http://hl7.org/fhir/sid/icd-10#J45.9 ("Asthma, unspecified")]"
 2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Check "http://hl7.org/fhir/sid/icd-10#J45.9"
 2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Include for http://snomed.info/sct not considered for "http://hl7.org/fhir/sid/icd-10"
 2ms http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1: Include for http://snomed.info/sct not considered for "http://hl7.org/fhir/sid/icd-10"
