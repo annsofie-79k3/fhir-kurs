@@ -20,8 +20,11 @@ Generic: line 0, col 0, Warning - The html source is not well formed: Found "</d
 /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationEncounter.json: line 1, col 24236, Info - There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'sv-SE'. The display is 'Sweden' which is a valid display for the default language (INVALID)
 /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationEncounter.json: line 1, col 32550, Info - extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 är föråldrad med noteringen: 'Use additionalBinding extension or element instead' (BUSINESSRULE)
 /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationEncounter.json: line 0, col 0, Info - The resource StructureDefinition/EducationEncounter could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html) (BUSINESSRULE)
-/home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationPatient.json: line 1, col 18172, Info - There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'sv-SE'. The display is 'Sweden' which is a valid display for the default language (INVALID)
+/home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationPatient.json: line 1, col 18540, Info - There are no valid display names found for the code urn:iso:std:iso:3166#SE for language(s) 'sv-SE'. The display is 'Sweden' which is a valid display for the default language (INVALID)
+/home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationPatient.json: line 1, col 22754, Error - Error in constraint 'edu-pat-1' on element Patient with expression 'identiifer 
+  .where(system = '$personnummer')
+  .all(value.matches('^[0-9]{12}$'))': Fel vid utvärdering av FHIRPath-uttryck: Namnet 'identiifer' är inte giltigt för någon av de möjliga typerna: [http://hl7.org/fhir/StructureDefinition/Patient] (@char 1) (INVALID)
 /home/runner/work/fhir-kurs/fhir-kurs/test-ig/fsh-generated/resources/StructureDefinition-EducationPatient.json: line 0, col 0, Info - The resource StructureDefinition/EducationPatient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html) (BUSINESSRULE)
 
-err = 0, warn = 11, info = 10, broken links = 0
+err = 1, warn = 11, info = 10, broken links = 0
 IG Publisher Version: 3.0.1
