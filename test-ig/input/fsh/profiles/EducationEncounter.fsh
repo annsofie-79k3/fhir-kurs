@@ -1,8 +1,8 @@
 Profile: EducationEncounter
 Parent: Encounter
 Id: EducationEncounter
-Title: EducationEncounter (title)
-Description: EducationEncounter (description)
+Title: "EducationEncounter (title)"
+Description: "EducationEncounter (description)"
 
 * type 1..1 MS
 * subject 1..1 MS only Reference(EducationPatient)
