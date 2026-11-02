@@ -5,7 +5,8 @@ Title: "EducationEncounter (title)"
 Description: "EducationEncounter (description)"
 
 * type 1..1 MS
-* subject 1..1 MS only Reference(EducationPatient)
+* subject 1..1 MS 
+* subject only Reference(EducationPatient)
 * period 1..1 MS
 * period.start 1..1 MS
 * serviceProvider 1..1 MS
